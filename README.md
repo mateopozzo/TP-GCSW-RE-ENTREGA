@@ -12,9 +12,15 @@ bash scripts/verificar.sh
 
 El script compila todas las clases y ejecuta cada clase de pruebas. Cada conjunto aprobado imprime una línea que empieza por `OK`. Un error de compilación o una prueba fallida detiene la verificación. GitHub Actions ejecuta este mismo comando en los pull requests y en los pushes a `main` y `develop`.
 
-## Operación disponible
+## Consultar un despacho
 
-`Despacho.stockRestante(12, 5)` calcula las existencias que quedan después de preparar un pedido. El resultado esperado es `7`. Las pruebas de `DespachoTest` ejercitan esta operación.
+Después de compilar, el siguiente comando simula un pedido de 5 unidades cuando hay 12 disponibles.
+
+```bash
+java -cp out ConsultaDespacho 12 5
+```
+
+La salida esperada es `Stock restante: 7 unidades.`
 
 ## Equipo y organización
 
@@ -36,5 +42,3 @@ Documentamos el objetivo y el alcance para que se entienda qué operación del d
 | Comando, datos de prueba, salida esperada y observada | Permite reproducir la validación sobre el commit que se va a integrar. |
 
 GitHub muestra esos campos mediante `.github/pull_request_template.md`. Con el diff y los comentarios por línea discutimos cambios concretos. `CODEOWNERS` identifica responsables de revisión, las aprobaciones dejan registro de la decisión y Actions publica el resultado del CI. Las issues vinculadas conservan el motivo del cambio.
-
-(cambio para crear rama develop)

@@ -6,6 +6,7 @@ public class ConsultaDespachoTest {
     public static void main(String[] args) {
         verificar(new String[]{"12", "5"}, 0, "Stock restante: 7 unidades.", "");
         verificar(new String[]{"5", "6"}, 1, "", "Stock insuficiente.");
+        verificar(new String[]{"tres", "1"}, 2, "", "Las cantidades deben ser enteros.");
         System.out.println("OK ConsultaDespachoTest");
     }
 

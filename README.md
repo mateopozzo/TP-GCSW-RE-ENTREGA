@@ -36,3 +36,5 @@ Documentamos el objetivo y el alcance para que se entienda qué operación del d
 | Comando, datos de prueba, salida esperada y observada | Permite reproducir la validación sobre el commit que se va a integrar. |
 
 GitHub muestra esos campos mediante `.github/pull_request_template.md`. Con el diff y los comentarios por línea discutimos cambios concretos. `CODEOWNERS` identifica responsables de revisión, las aprobaciones dejan registro de la decisión y Actions publica el resultado del CI. Las issues vinculadas conservan el motivo del cambio.
+
+(cambio para crear rama develop)

@@ -1,0 +1,10 @@
+# Los cuatro integrantes pueden revisar el código y las pruebas.
+* @mateopozzo @aspai1 @juaniizquierdo @Alag7
+
+# Responsables de los archivos de automatización.
+/.github/ @mateopozzo @aspai1
+/scripts/ @mateopozzo @aspai1
+
+# Responsables de la documentación de cada versión.
+/README.md @mateopozzo @juaniizquierdo @aspai1
+/CHANGELOG.md @mateopozzo @juaniizquierdo @aspai1

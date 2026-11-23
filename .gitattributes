@@ -1,0 +1,2 @@
+# Usar el mismo fin de línea en archivos de texto desde Windows y desde Linux.
+* text=auto eol=lf

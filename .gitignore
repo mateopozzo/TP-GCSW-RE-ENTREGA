@@ -1,0 +1,10 @@
+# Resultados de compilación
+out/
+*.class
+
+# Configuración local
+.idea/
+.vscode/
+*.iml
+.env
+*.local

@@ -1,5 +1,5 @@
 # Historial de versiones
 
-## En desarrollo
+## 1.0.0
 
-Se calcula el stock restante tras un despacho. El repositorio incluye pruebas locales y de integración continua.
+Primera versión de la consulta de despacho. A partir del stock disponible y de la cantidad solicitada se calcula el saldo. La aplicación ofrece una interfaz de consola y pruebas de lógica y de salida.

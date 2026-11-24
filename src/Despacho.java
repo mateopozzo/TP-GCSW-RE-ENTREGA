@@ -5,7 +5,7 @@ public final class Despacho {
         if (disponibles < 0 || solicitadas <= 0) {
             throw new IllegalArgumentException("Cantidades inválidas.");
         }
-        if (solicitadas >= disponibles) {
+        if (solicitadas > disponibles) {
             throw new IllegalArgumentException("Stock insuficiente.");
         }
         return disponibles - solicitadas;

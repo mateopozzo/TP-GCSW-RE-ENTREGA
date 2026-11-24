@@ -22,6 +22,16 @@ java -cp out ConsultaDespacho 12 5
 
 La salida esperada es `Stock restante: 7 unidades.`
 
+## Registrar una recepción
+
+Después de compilar, se puede calcular el stock tras recibir bultos. Los tres datos son las unidades iniciales, la cantidad de bultos y las unidades por bulto.
+
+```bash
+java -cp out Recepcion 7 3 5
+```
+
+La salida esperada es `Stock final: 22 unidades.` Un depósito puede recibir cero bultos. Se requieren unidades positivas por bulto y un resultado representable como `int`.
+
 ## Equipo y organización
 
 El equipo está integrado por `@mateopozzo`, `@aspai1`, `@juaniizquierdo` y `@Alag7`. `src/` contiene el programa y `tests/` contiene las pruebas ejecutables. El directorio `out/` se genera al compilar. El archivo `VERSION` identifica la versión y `CHANGELOG.md` describe los cambios de cada publicación.

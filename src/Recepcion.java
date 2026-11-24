@@ -17,6 +17,7 @@ public class Recepcion {
             int bultos = Integer.parseInt(args[1]);
             int porBulto = Integer.parseInt(args[2]);
             int total = stockFinal(inicial, bultos, porBulto);
+            System.out.printf("Ingreso: %d bultos de %d unidades.%n", bultos, porBulto);
             System.out.printf("Stock final: %d unidades.%n", total);
         } catch (NumberFormatException error) {
             System.err.println("Las cantidades deben ser enteros.");
